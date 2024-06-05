@@ -1,9 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+title: "[BUG]"
+labels: bug
+assignees: Fluffy728
 
 ---
 
@@ -36,3 +36,9 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+# Status
+
+[ ] Asked
+[ ] Noticed
+[ ] Answered
