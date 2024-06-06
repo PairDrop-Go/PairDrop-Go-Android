@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ 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 }}
+        issue-message: "Hello! This is your first issue! Make sure to read the rules"
+        pr-message: "Hi dev! Thanks for helping us! This is your first pull."
