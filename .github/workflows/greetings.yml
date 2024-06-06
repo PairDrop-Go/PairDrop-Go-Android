@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{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}}
+        repo-token: ${{pat_11A4RWIDA0DuzggwXdBBee_ys5WucS61OhQurvk8Cq68zHASv9PRUFOmxE90p6T6vnNZKZU76MhMCf1hKT}}
         issue-message: "Hello! This is your first issue! Make sure to read the rules"
         pr-message: "Hi dev! Thanks for helping us! This is your first pull."
